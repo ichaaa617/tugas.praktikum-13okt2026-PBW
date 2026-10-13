@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Mahasiswa</title>
+
+    <style>
+        /* Mengatur tampilan seluruh halaman */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 20px;
+            color: #333333;
+        }
+
+        /* Judul halaman */
+        #header {
+            background-color: #2563eb;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        #header h1 {
+            margin: 0;
+        }
+
+        /* Kotak utama setiap bagian */
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 1px solid #dddddd;
+        }
+
+        /* Judul setiap bagian */
+        .card h2 {
+            color: #2563eb;
+            margin-top: 0;
+        }
+
+        /* Tabel data akademik */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #dddddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #dbeafe;
+        }
+
+        /* Daftar keahlian */
+        .skill {
+            display: inline-block;
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 20px;
+        }
+
+        /* Tombol kontak */
+        .button {
+            display: inline-block;
+            background-color: #2563eb;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: #1d4ed8;
+        }
+
+        /* Bagian bawah halaman */
+        #footer {
+            text-align: center;
+            color: #666666;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Bagian judul -->
+    <div id="header">
+        <h1>Dashboard Mahasiswa</h1>
+        <p>BOASH University</p>
+    </div>
+
+    <!-- Bagian profil -->
+    <div class="card">
+        <h2>Profil Mahasiswa</h2>
+        <p><b>Nama:</b> Siti Khonisa</p>
+        <p><b>NIM:</b> 25903460020</p>
+        <p><b>Program Studi:</b> Teknologi Rekayasa Multimedia</p>
+        <p><b>Semester:</b> 3</p>
+    </div>
+
+    <!-- Bagian akademik -->
+    <div class="card">
+        <h2>Data Akademik</h2>
+
+        <table>
+            <tr>
+                <th>Mata Kuliah</th>
+                <th>Nilai</th>
+            </tr>
+            <tr>
+                <td>Pemrograman Web</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Animasi 3D</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Statistika</td>
+                <td>B</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Bagian keahlian -->
+    <div class="card">
+        <h2>Keahlian</h2>
+
+        <span class="skill">HTML</span>
+        <span class="skill">Blender</span>
+        <span class="skill">Figma</span>
+        <span class="skill">Desain Grafis</span>
+    </div>
+
+    <!-- Bagian kontak -->
+    <div class="card">
+        <h2>Kontak</h2>
+        <p><b>Email:</b> sitikhonisa06@gmail.com@email.com</p>
+        <p><b>Telepon:</b> 085817837434</p>
+
+        <a class="button"
+           href="mailto:mahasiswa@email.com">
+           Hubungi Saya
+        </a>
+    </div>
+
+    <!-- Bagian footer -->
+    <div id="footer">
+        <p>&copy; 2026 BOASH University</p>
+    </div>
+
+</body>
+</html>
